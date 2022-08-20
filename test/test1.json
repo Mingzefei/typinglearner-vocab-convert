@@ -1,0 +1,1810 @@
+{
+    "name": "sicp_python-ch1.7",
+    "type": "DOCUMENT",
+    "language": "english",
+    "size": 100,
+    "relateVideoPath": "",
+    "subtitlesTrackId": 0,
+    "wordList": [
+        {
+            "value": "recursive",
+            "usphone": "",
+            "ukphone": "ri'kә:siv",
+            "definition": "s. of or relating to a recursion",
+            "translation": "a. 循环的, 递归的\n[计] 循环的; 递归的",
+            "pos": "",
+            "collins": 0,
+            "oxford": false,
+            "tag": "",
+            "bnc": 37978,
+            "frq": 26385,
+            "exchange": "",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "directly",
+            "usphone": "",
+            "ukphone": "di'rektli, dai'rektli",
+            "definition": "r. without deviation\nr. without anyone or anything intervening\nr. in a forthright manner; candidly or frankly",
+            "translation": "adv. 径直地, 直接地, 直率地, 正好地, 直截了当地, (非正式)立即, 马上\nconj. 一...(就...), 一当...就...\n[计] 直接的",
+            "pos": "",
+            "collins": 1,
+            "oxford": true,
+            "tag": "cet4 cet6 ky",
+            "bnc": 1146,
+            "frq": 1139,
+            "exchange": "",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "syntax",
+            "usphone": "",
+            "ukphone": "'sintæks",
+            "definition": "n. the grammatical arrangement of words in sentences\nn. a systematic orderly arrangement\nn. studies of the rules for forming admissible sentences",
+            "translation": "n. 句法, 语法, 句子构造\n[计] 句法, 语法",
+            "pos": "",
+            "collins": 0,
+            "oxford": false,
+            "tag": "",
+            "bnc": 8280,
+            "frq": 15676,
+            "exchange": "",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "operator",
+            "usphone": "",
+            "ukphone": "'ɒpәreitә",
+            "definition": "n. (mathematics) a symbol or function representing a mathematical operation\nn. an agent that operates some apparatus or machine\nn. someone who owns or operates a business\nn. a speculator who trades aggressively on stock or commodity markets",
+            "translation": "n. 操作员, 行家, 经纪人, 算子, 运算符\n[计] 运算符",
+            "pos": "",
+            "collins": 3,
+            "oxford": false,
+            "tag": "gk cet4 cet6 ky toefl",
+            "bnc": 2700,
+            "frq": 3210,
+            "exchange": "s:operators",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "separate",
+            "usphone": "",
+            "ukphone": "'sepәreit",
+            "definition": "n. a garment that can be purchased separately and worn in combinations with other garments\nv. act as a barrier between; stand between\nv. force, take, or pull apart\nv. divide into components or constituents",
+            "translation": "n. 独立件, 抽印本\na. 分开的, 各别的, 单独的, 分隔的\nvi. 分开, 隔开, 分居\nvt. 使分离, 使分开, 区分, 使分居",
+            "pos": "",
+            "collins": 4,
+            "oxford": true,
+            "tag": "zk gk cet4 cet6 ky gre",
+            "bnc": 1256,
+            "frq": 1892,
+            "exchange": "d:separated/i:separating/3:separates/p:separated/s:separates",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "digit",
+            "usphone": "",
+            "ukphone": "'didʒit",
+            "definition": "n. one of the elements that collectively form a system of numeration\nn. a finger or toe in human beings or corresponding body part in other vertebrates",
+            "translation": "n. 数字, 位数, 指头\n[计] 数位; 位",
+            "pos": "",
+            "collins": 1,
+            "oxford": false,
+            "tag": "gre",
+            "bnc": 8875,
+            "frq": 8519,
+            "exchange": "s:digits",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "separation",
+            "usphone": "",
+            "ukphone": ".sepә'reiʃәn",
+            "definition": "n. the state of lacking unity\nn. coming apart\nn. sorting one thing from others\nn. the social act of separating or parting company",
+            "translation": "n. 分离, 分居, 缺口, 退职\n[化] 分离",
+            "pos": "",
+            "collins": 0,
+            "oxford": true,
+            "tag": "gk cet4 cet6",
+            "bnc": 3669,
+            "frq": 3704,
+            "exchange": "s:separations",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "algorithm",
+            "usphone": "",
+            "ukphone": "'ælgәriðm",
+            "definition": "n. a precise rule (or set of rules) specifying how to solve some problem",
+            "translation": "n. 算法\n[计] 算法",
+            "pos": "",
+            "collins": 0,
+            "oxford": false,
+            "tag": "",
+            "bnc": 6819,
+            "frq": 8230,
+            "exchange": "s:algorithms",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "integer",
+            "usphone": "",
+            "ukphone": "'intidʒә",
+            "definition": "n. any of the natural numbers (positive or negative) or zero",
+            "translation": "n. 完整的事物, 整体, 整数\n[计] 整数, 整型",
+            "pos": "",
+            "collins": 0,
+            "oxford": false,
+            "tag": "",
+            "bnc": 10941,
+            "frq": 24059,
+            "exchange": "s:integers",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "definition",
+            "usphone": "",
+            "ukphone": ".defi'niʃәn",
+            "definition": "n. a concise explanation of the meaning of a word or phrase or symbol\nn. clarity of outline",
+            "translation": "n. 定义, 精确度, 清晰度\n[计] 清晰度; 清晰度",
+            "pos": "",
+            "collins": 3,
+            "oxford": true,
+            "tag": "cet4 cet6 ky toefl gre",
+            "bnc": 1533,
+            "frq": 2110,
+            "exchange": "s:definitions",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "implement",
+            "usphone": "",
+            "ukphone": "'implimәnt",
+            "definition": "n. instrumentation (a piece of equipment or tool) used to effect an end\nv. apply in a manner consistent with its purpose or design",
+            "translation": "n. 工具, 器具, 手段\nvt. 实现, 使生效, 执行",
+            "pos": "",
+            "collins": 3,
+            "oxford": false,
+            "tag": "cet4 cet6 ky toefl ielts gre",
+            "bnc": 2149,
+            "frq": 2285,
+            "exchange": "d:implemented/i:implementing/s:implements/3:implements/p:implemented",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "precisely",
+            "usphone": "",
+            "ukphone": "pri'saisli",
+            "definition": "r. indicating exactness or preciseness\nr. in a precise manner\nr. just as it should be",
+            "translation": "adv. 精确地, 明确地, 刻板地, 拘泥地, 正好, 恰恰, 对, 正是如此, 确实如此, 不错",
+            "pos": "",
+            "collins": 3,
+            "oxford": true,
+            "tag": "",
+            "bnc": 2424,
+            "frq": 2579,
+            "exchange": "",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "tutor",
+            "usphone": "",
+            "ukphone": "'tju:tә",
+            "definition": "v. be a tutor to someone; give individual instruction\nv. act as a guardian to someone",
+            "translation": "n. 家庭教师, 导师, 助教, 监护人\nvt. 当...的教师, 教, 指导, 约束, 克制\nvi. 当家庭教师, 受家庭教师的指导",
+            "pos": "",
+            "collins": 2,
+            "oxford": false,
+            "tag": "gk cet4 cet6 ky toefl ielts gre",
+            "bnc": 3839,
+            "frq": 9093,
+            "exchange": "s:tutors/i:tutoring/p:tutored/3:tutors/d:tutored",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "execute",
+            "usphone": "",
+            "ukphone": "'eksikju:t",
+            "definition": "v. kill as a means of socially sanctioned punishment\nv. murder in a planned fashion\nv. carry out the legalities of\nv. sign in the presence of witnesses",
+            "translation": "vt. 执行, 实行, 完成, 处死, 制成\n[计] 执行",
+            "pos": "",
+            "collins": 3,
+            "oxford": false,
+            "tag": "cet4 cet6 ky toefl ielts gre",
+            "bnc": 3704,
+            "frq": 3642,
+            "exchange": "d:executed/p:executed/i:executing/3:executes",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "circular",
+            "usphone": "",
+            "ukphone": "'sә:kjulә",
+            "definition": "n. an advertisement (usually printed on a page or in a leaflet) intended for wide distribution\ns. describing a circle; moving in a circle",
+            "translation": "a. 圆形的, 循环的, 间接的\n[医] 环状的, 循环的",
+            "pos": "",
+            "collins": 2,
+            "oxford": false,
+            "tag": "cet4 cet6 ky toefl gre",
+            "bnc": 4711,
+            "frq": 6749,
+            "exchange": "s:circulars",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "frame",
+            "usphone": "",
+            "ukphone": "freim",
+            "definition": "n. the framework for a pair of eyeglasses\nn. a single one of a series of still transparent pictures forming a cinema, television or video film\nn. a single drawing in a comic_strip\nn. an application that divides the user's display into two or more windows that can be scrolled independently",
+            "translation": "n. 框, 结构, 体格\nvt. 构成, 设计, 制定, 使适合, 陷害\n[计] 框架, 图文框, 帧",
+            "pos": "",
+            "collins": 3,
+            "oxford": true,
+            "tag": "cet4 cet6 ky toefl",
+            "bnc": 2161,
+            "frq": 1833,
+            "exchange": "s:frames/d:framed/i:framing/p:framed/3:frames",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "assignment",
+            "usphone": "",
+            "ukphone": "ә'sainmәnt",
+            "definition": "n. a duty that you are assigned to perform (especially in the armed forces)\nn. the instrument by which a claim or right or interest or property is transferred from one person to another\nn. the act of distributing something to designated places or persons\nn. an undertaking that you have been assigned to do (as by an instructor)",
+            "translation": "n. 分配, 功课, 任务, 转让, 归因, 陈述\n[计] 赋值",
+            "pos": "",
+            "collins": 2,
+            "oxford": false,
+            "tag": "cet4 cet6 ky toefl ielts",
+            "bnc": 3817,
+            "frq": 3128,
+            "exchange": "s:assignments",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "evaluate",
+            "usphone": "",
+            "ukphone": "i'væljueit",
+            "definition": "v. form a critical opinion of",
+            "translation": "vt. 评估, 评价, 赋值",
+            "pos": "",
+            "collins": 2,
+            "oxford": false,
+            "tag": "gk cet4 cet6 ky toefl ielts",
+            "bnc": 3168,
+            "frq": 2339,
+            "exchange": "d:evaluated/i:evaluating/p:evaluated/3:evaluates",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "diagram",
+            "usphone": "",
+            "ukphone": "'daiәɡræm",
+            "definition": "n. a drawing intended to explain how something works; a drawing showing the relation between the parts\nv. make a schematic or technical drawing of that shows interactions among variables or how something is constructed",
+            "translation": "n. 图表；图解",
+            "pos": "",
+            "collins": 1,
+            "oxford": true,
+            "tag": "gk cet4 cet6 ky toefl ielts gre",
+            "bnc": 3855,
+            "frq": 7324,
+            "exchange": "s:diagrams/d:diagrammed/i:diagramming/p:diagrammed/3:diagrams",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "eventually",
+            "usphone": "",
+            "ukphone": "i'ventʃuәli",
+            "definition": "r after an unspecified period of time or an especially long delay",
+            "translation": "adv. 最后, 终于",
+            "pos": "",
+            "collins": 4,
+            "oxford": true,
+            "tag": "gk cet4 cet6 ky toefl ielts",
+            "bnc": 1089,
+            "frq": 1106,
+            "exchange": "",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "illustrate",
+            "usphone": "",
+            "ukphone": "'ilәstreit",
+            "definition": "v. depict with an illustration\nv. supply with illustrations",
+            "translation": "vt. 举例说明, 作图解, 阐明\nvi. 举例说明",
+            "pos": "",
+            "collins": 3,
+            "oxford": true,
+            "tag": "cet4 cet6 ky toefl ielts gre",
+            "bnc": 1676,
+            "frq": 2348,
+            "exchange": "d:illustrated/3:illustrates/i:illustrating/p:illustrated",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "evolve",
+            "usphone": "",
+            "ukphone": "i'vɒlv",
+            "definition": "v. work out\nv. undergo development or evolution",
+            "translation": "vi. 进展, 进化, 展开\nvt. 使发展, 使推断出, 使进化",
+            "pos": "",
+            "collins": 2,
+            "oxford": false,
+            "tag": "cet4 cet6 ky toefl gre",
+            "bnc": 3445,
+            "frq": 2821,
+            "exchange": "d:evolved/p:evolved/i:evolving/3:evolves",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "recursion",
+            "usphone": "",
+            "ukphone": "ri'kә:ʃәn",
+            "definition": "n. (mathematics) an expression such that each term is generated by repeating a particular mathematical operation",
+            "translation": "[计] 递归; 循环",
+            "pos": "",
+            "collins": 0,
+            "oxford": false,
+            "tag": "",
+            "bnc": 0,
+            "frq": 35981,
+            "exchange": "s:recursions",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "anatomy",
+            "usphone": "",
+            "ukphone": "ә'nætәmi",
+            "definition": "n. the branch of morphology that deals with the structure of animals\nn. a detailed analysis",
+            "translation": "n. 剖析, 解剖学, 骨骼, 结构\n[医] 解剖学, 解剖",
+            "pos": "",
+            "collins": 1,
+            "oxford": false,
+            "tag": "toefl",
+            "bnc": 8866,
+            "frq": 8160,
+            "exchange": "s:anatomies",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "conditional",
+            "usphone": "",
+            "ukphone": "kәn'diʃәnl",
+            "definition": "s. qualified by reservations\na. imposing or depending on or containing a condition",
+            "translation": "a. 有条件的, 有前提的\n[电] 有条件的",
+            "pos": "",
+            "collins": 1,
+            "oxford": false,
+            "tag": "",
+            "bnc": 8076,
+            "frq": 13947,
+            "exchange": "s:conditionals",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "multiple",
+            "usphone": "",
+            "ukphone": "'mʌltipl",
+            "definition": "n. the product of a quantity by an integer\na. having or involving or consisting of more than one part or entity or individual",
+            "translation": "n. 倍数, 并联\na. 多样的, 许多的, 多功能的",
+            "pos": "",
+            "collins": 2,
+            "oxford": false,
+            "tag": "cet4 cet6 ky toefl gre",
+            "bnc": 3293,
+            "frq": 1948,
+            "exchange": "s:multiples",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "simplify",
+            "usphone": "",
+            "ukphone": "'simplifai",
+            "definition": "v. make simpler or easier or reduce in complexity or extent",
+            "translation": "vt. 单一化, 简单化",
+            "pos": "",
+            "collins": 1,
+            "oxford": false,
+            "tag": "gk cet4 cet6 ky ielts",
+            "bnc": 7074,
+            "frq": 8483,
+            "exchange": "d:simplified/3:simplifies/i:simplifying/p:simplified",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "incrementally",
+            "usphone": "",
+            "ukphone": ",inkri'məntəli",
+            "definition": "",
+            "translation": "adv. 逐渐地",
+            "pos": "",
+            "collins": 0,
+            "oxford": false,
+            "tag": "",
+            "bnc": 37829,
+            "frq": 20798,
+            "exchange": "",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "subsequent",
+            "usphone": "",
+            "ukphone": "'sʌbsikwәnt",
+            "definition": "a. following in time or order",
+            "translation": "a. 后来的, 接下去的\n[经] 后来的",
+            "pos": "",
+            "collins": 3,
+            "oxford": false,
+            "tag": "cet4 cet6 ky toefl ielts gre",
+            "bnc": 2113,
+            "frq": 3267,
+            "exchange": "",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "iterative",
+            "usphone": "",
+            "ukphone": "'itәrәtiv",
+            "definition": "n. the aspect of the verb that expresses the repetition of an action\ns. marked by iteration",
+            "translation": "a. 反复的, 絮叨的\nn. 反复体",
+            "pos": "",
+            "collins": 0,
+            "oxford": false,
+            "tag": "",
+            "bnc": 27737,
+            "frq": 25217,
+            "exchange": "s:iteratives",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "previously",
+            "usphone": "",
+            "ukphone": "'pri:vju:sli",
+            "definition": "r. at an earlier time or formerly",
+            "translation": "adv. 先, 先前, 以前, 前, (非正式)过早, 过急, 在前, 在...以前, 在先\n[计] 先前地",
+            "pos": "",
+            "collins": 3,
+            "oxford": true,
+            "tag": "cet4 cet6",
+            "bnc": 1380,
+            "frq": 2313,
+            "exchange": "",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "factorial",
+            "usphone": "",
+            "ukphone": "fæk'tɒ:riәl",
+            "definition": "n. the product of all the integers up to and including a given integer\na. of or relating to factorials",
+            "translation": "a. 因子的, 阶乘的, 代理商的\nn. 阶乘\n[计] 阶乘",
+            "pos": "",
+            "collins": 0,
+            "oxford": false,
+            "tag": "",
+            "bnc": 0,
+            "frq": 23162,
+            "exchange": "s:factorials",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "implementation",
+            "usphone": "",
+            "ukphone": ".implimen'teiʃәn",
+            "definition": "n. the act of implementing (providing a practical means for accomplishing something); carrying into effect",
+            "translation": "n. 安装启用, 实行, 履行\n[计] 实施; 实现",
+            "pos": "",
+            "collins": 0,
+            "oxford": false,
+            "tag": "",
+            "bnc": 2734,
+            "frq": 3530,
+            "exchange": "s:implementations",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "accumulate",
+            "usphone": "",
+            "ukphone": "ә'kju:mjuleit",
+            "definition": "v. collect or gather",
+            "translation": "v. 积聚, 堆积",
+            "pos": "",
+            "collins": 2,
+            "oxford": false,
+            "tag": "gk cet4 cet6 ky toefl ielts gre",
+            "bnc": 4997,
+            "frq": 5083,
+            "exchange": "d:accumulated/i:accumulating/3:accumulates/p:accumulated",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "multiply",
+            "usphone": "",
+            "ukphone": "'mʌltiplai",
+            "definition": "v. combine by multiplication\nv. combine or increase by multiplication\nr. in several ways; in a multiple manner",
+            "translation": "v. 繁殖, 乘, 增加\n[计] 乘",
+            "pos": "",
+            "collins": 2,
+            "oxford": true,
+            "tag": "gk cet4 cet6 ky toefl ielts gre",
+            "bnc": 5028,
+            "frq": 6148,
+            "exchange": "d:multiplied/i:multiplying/p:multiplied/3:multiplies",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "conceptually",
+            "usphone": "",
+            "ukphone": "kәn'septʃuәli",
+            "definition": "r. in a conceptual manner",
+            "translation": "adv. 概念地",
+            "pos": "",
+            "collins": 0,
+            "oxford": false,
+            "tag": "",
+            "bnc": 19798,
+            "frq": 14829,
+            "exchange": "",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "construct",
+            "usphone": "",
+            "ukphone": "kәn'strʌkt",
+            "definition": "v. make by combining materials and parts\nv. draw with suitable instruments and under specified conditions\nv. create by linking linguistic units\nv. create by organizing and linking ideas, arguments, or concepts",
+            "translation": "vt. 构造, 建造, 对...进行构思, 作图\nn. 构成物",
+            "pos": "",
+            "collins": 3,
+            "oxford": true,
+            "tag": "gk cet4 cet6 ky toefl gre",
+            "bnc": 2058,
+            "frq": 2477,
+            "exchange": "d:constructed/i:constructing/s:constructs/3:constructs/p:constructed",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "successively",
+            "usphone": "",
+            "ukphone": "",
+            "definition": "r. in proper order or sequence",
+            "translation": "adv. 接连着地；相继地",
+            "pos": "",
+            "collins": 0,
+            "oxford": false,
+            "tag": "",
+            "bnc": 15373,
+            "frq": 22132,
+            "exchange": "",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "correctness",
+            "usphone": "",
+            "ukphone": "",
+            "definition": "n. conformity to fact or truth\nn. the quality of conformity to social expectations",
+            "translation": "[计] 正确性\n[经] 正确性",
+            "pos": "",
+            "collins": 0,
+            "oxford": false,
+            "tag": "",
+            "bnc": 14961,
+            "frq": 11593,
+            "exchange": "",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "unwind",
+            "usphone": "",
+            "ukphone": ".ʌn'waind",
+            "definition": "v. reverse the winding or twisting of\nv. separate the tangles of",
+            "translation": "vt. 展开\n[化] 拆卷; 开卷",
+            "pos": "",
+            "collins": 1,
+            "oxford": false,
+            "tag": "",
+            "bnc": 14741,
+            "frq": 13945,
+            "exchange": "i:unwinding/3:unwinds/p:unwound/d:unwound",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "abstraction",
+            "usphone": "",
+            "ukphone": "æb'strækʃәn",
+            "definition": "n. a concept or idea not associated with any specific instance\nn. the act of withdrawing or removing something\nn. the process of formulating general concepts by abstracting common properties of instances\nn. an abstract painting",
+            "translation": "n. 抽象化, 心不在焉, 空想, 提炼, 抽象派作品\n[化] 提取; 抽取; 夺取; 夺取反应; 除去",
+            "pos": "",
+            "collins": 1,
+            "oxford": false,
+            "tag": "toefl",
+            "bnc": 7880,
+            "frq": 8413,
+            "exchange": "s:abstractions",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "leap",
+            "usphone": "",
+            "ukphone": "li:p",
+            "definition": "n. a light, self-propelled movement upwards or forwards\nn. an abrupt transition\nn. the distance leaped (or to be leaped)\nv. pass abruptly from one state or topic to another",
+            "translation": "n. 跳跃, 剧增, 急变, 被越过之物\nvi. 跳跃, 突然经过\nvt. 跃过, 使跃过",
+            "pos": "",
+            "collins": 3,
+            "oxford": false,
+            "tag": "cet4 cet6 ky toefl ielts",
+            "bnc": 3425,
+            "frq": 3621,
+            "exchange": "p:leapt/i:leaping/s:leaps/3:leaps/d:leapt",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "faith",
+            "usphone": "",
+            "ukphone": "feiθ",
+            "definition": "n. complete confidence in a person or plan etc\nn. loyalty or allegiance to a cause or a person",
+            "translation": "n. 信心, 信任, 忠实, 保证\n[法] 信任, 信仰, 信念",
+            "pos": "",
+            "collins": 3,
+            "oxford": true,
+            "tag": "gk cet4 cet6 ky toefl ielts",
+            "bnc": 1738,
+            "frq": 1326,
+            "exchange": "s:faiths",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "assumption",
+            "usphone": "",
+            "ukphone": "ә'sʌmpʃәn",
+            "definition": "n. a hypothesis that is taken for granted\nn. the act of taking possession of or power over something\nn. celebration in the Roman Catholic Church of the Virgin Mary's being taken up into heaven when her earthly life ended; corresponds to the Dormition in the Eastern Orthodox Church\nn. (Christianity) the taking up of the body and soul of the Virgin Mary when her earthly life had ended",
+            "translation": "n. 假定, 自负, 担任, 假装\n[经] 假定, 承担",
+            "pos": "",
+            "collins": 3,
+            "oxford": false,
+            "tag": "gk cet4 cet6 ky toefl ielts gre",
+            "bnc": 1693,
+            "frq": 2606,
+            "exchange": "s:assumptions",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "induction",
+            "usphone": "",
+            "ukphone": "in'dʌkʃәn",
+            "definition": "n. an electrical phenomenon whereby an electromotive force (EMF) is generated in a closed circuit by a change in the flow of current\nn. the act of bringing about something (especially at an early time)",
+            "translation": "n. 归纳法, 感应, 就职, 入门\n[计] 归纳法",
+            "pos": "",
+            "collins": 1,
+            "oxford": false,
+            "tag": "cet6 gre",
+            "bnc": 7240,
+            "frq": 10709,
+            "exchange": "s:inductions",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "additional",
+            "usphone": "",
+            "ukphone": "ә'diʃәnәl",
+            "definition": "s further or added",
+            "translation": "a. 附加的, 另外的, 额外的\n[机] 加添的, 附加的",
+            "pos": "",
+            "collins": 0,
+            "oxford": true,
+            "tag": "cet4 cet6 ky toefl ielts",
+            "bnc": 1310,
+            "frq": 1319,
+            "exchange": "",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "iteration",
+            "usphone": "",
+            "ukphone": ".itә'reiʃәn",
+            "definition": "n. (computer science) a single execution of a set of instructions that are to be repeated\nn. (computer science) executing the same set of instructions a given number of times or until a specified result is obtained\nn. doing or saying again; a repeated performance",
+            "translation": "n. 重复, 反复说的话\n[计] 迭代",
+            "pos": "",
+            "collins": 0,
+            "oxford": false,
+            "tag": "",
+            "bnc": 17595,
+            "frq": 18188,
+            "exchange": "s:iterations",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "characterize",
+            "usphone": "",
+            "ukphone": "'kærәktәraiz",
+            "definition": "v. be characteristic of",
+            "translation": "vt. 描绘...的特性, 刻划...的性格",
+            "pos": "",
+            "collins": 2,
+            "oxford": false,
+            "tag": "cet4 cet6 ky toefl ielts gre",
+            "bnc": 4894,
+            "frq": 2859,
+            "exchange": "d:characterized/p:characterized/3:characterizes/i:characterizing",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "entirely",
+            "usphone": "",
+            "ukphone": "in'taiәli",
+            "definition": "r. without any others being included or involved",
+            "translation": "adv. 完全, 全然, 一概",
+            "pos": "",
+            "collins": 3,
+            "oxford": true,
+            "tag": "",
+            "bnc": 1367,
+            "frq": 1858,
+            "exchange": "",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "explicitly",
+            "usphone": "",
+            "ukphone": "",
+            "definition": "r. in an explicit manner",
+            "translation": "adv. 明确地；明白地",
+            "pos": "",
+            "collins": 0,
+            "oxford": false,
+            "tag": "",
+            "bnc": 4859,
+            "frq": 5222,
+            "exchange": "",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "track",
+            "usphone": "",
+            "ukphone": "træk",
+            "definition": "n. a pair of parallel rails providing a runway for wheels\nn. an endless metal belt on which tracked vehicles move over the ground\nn. (computer science) one of the circular magnetic paths on a magnetic disk that serve as a guide for writing and reading data\nn. a groove on a phonograph recording",
+            "translation": "n. 轨迹, 足迹, 径迹, 小道, 轨道, 磁轨, 途径\nvt. 循路而行, 追踪, 通过, 用纤拉\nvi. 追踪, 留下足迹, 沿轨道运行\n[计] 跟踪",
+            "pos": "",
+            "collins": 4,
+            "oxford": true,
+            "tag": "gk cet4 cet6 ky toefl ielts gre",
+            "bnc": 1268,
+            "frq": 1143,
+            "exchange": "s:tracks/d:tracked/p:tracked/i:tracking/3:tracks",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "leverage",
+            "usphone": "",
+            "ukphone": "'levәridʒ",
+            "definition": "n. the mechanical advantage gained by being in a position to use a lever\nn. strategic advantage; power to act effectively\nn. investing with borrowed money as a way to amplify potential gains (at the risk of greater losses)\nv. supplement with leverage",
+            "translation": "n. 杠杆作用, 杠杆装置, 杠杆效率\n[医] 杠杆率",
+            "pos": "",
+            "collins": 2,
+            "oxford": false,
+            "tag": "cet4",
+            "bnc": 14331,
+            "frq": 6493,
+            "exchange": "i:leveraging/d:leveraged/s:leverages/p:leveraged/3:leverages",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "expression",
+            "usphone": "",
+            "ukphone": "ik'spreʃәn",
+            "definition": "n. the feelings expressed on a person's face\nn. expression without words\nn. the communication (in speech or writing) of your beliefs or opinions\nn. (genetics) the process of expressing a gene",
+            "translation": "n. 表达, 表现, 词语, 措辞\n[计] 表达式",
+            "pos": "",
+            "collins": 3,
+            "oxford": true,
+            "tag": "gk cet4 cet6 ky",
+            "bnc": 1139,
+            "frq": 1533,
+            "exchange": "s:expressions",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "bind",
+            "usphone": "",
+            "ukphone": "baind",
+            "definition": "n. something that hinders as if with bonds\nv. create social or emotional ties\nv. make fast; tie or secure, with or as if with a rope\nv. wrap around with something so as to cover or enclose",
+            "translation": "vt. 绑, 约束, 装订, 包扎, 使结合\nvi. 凝固, 有约束力\n[计] 赋值, 绑定",
+            "pos": "",
+            "collins": 2,
+            "oxford": false,
+            "tag": "cet4 ky toefl ielts",
+            "bnc": 1888,
+            "frq": 2496,
+            "exchange": "d:bound/i:binding/p:bound/3:binds",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "nuisance",
+            "usphone": "",
+            "ukphone": "'nju:sns",
+            "definition": "n. (law) a broad legal concept including anything that disturbs the reasonable use of your property or endangers life and health or is offensive",
+            "translation": "n. 讨厌的东西, 讨厌的人, 损害\n[医] 损害, 讨厌",
+            "pos": "",
+            "collins": 1,
+            "oxford": false,
+            "tag": "cet4 cet6 ky ielts",
+            "bnc": 5300,
+            "frq": 8738,
+            "exchange": "s:nuisances",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "assign",
+            "usphone": "",
+            "ukphone": "ә'sain",
+            "definition": "v. give out\nv. select something or someone for a specific purpose\nv. transfer one's right to\nv. decide as to where something belongs in a scheme",
+            "translation": "vt. 分配, 指派, 赋值\n[计] 赋值",
+            "pos": "",
+            "collins": 2,
+            "oxford": false,
+            "tag": "cet4 cet6 ky toefl ielts",
+            "bnc": 3876,
+            "frq": 2611,
+            "exchange": "d:assigned/i:assigning/3:assigns/p:assigned",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "mutual",
+            "usphone": "",
+            "ukphone": "'mju:tʃuәl",
+            "definition": "s common to or shared by two or more parties\na concerning each of two or more persons or things; especially given or done in return",
+            "translation": "a. 相互的, 共有的\n[经] 相互的",
+            "pos": "",
+            "collins": 3,
+            "oxford": false,
+            "tag": "cet4 cet6 ky toefl ielts",
+            "bnc": 3301,
+            "frq": 2799,
+            "exchange": "s:mutuals",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "divide",
+            "usphone": "",
+            "ukphone": "di'vaid",
+            "definition": "n. a serious disagreement between two groups of people (typically producing tension or hostility)\nv. separate into parts or portions\nv. perform a division",
+            "translation": "vi. 分开, 分配, 分裂\nvt. 分, 分开, 分裂, 除\nn. 分配, 分水岭\n[计] 除",
+            "pos": "",
+            "collins": 4,
+            "oxford": true,
+            "tag": "zk gk cet4 ky toefl",
+            "bnc": 1544,
+            "frq": 1942,
+            "exchange": "d:divided/i:dividing/p:divided/3:divides/s:divides",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "mutually",
+            "usphone": "",
+            "ukphone": "'mju:tʃuәli",
+            "definition": "r. in a mutual or shared manner",
+            "translation": "adv. 互相地, 互助",
+            "pos": "",
+            "collins": 0,
+            "oxford": false,
+            "tag": "",
+            "bnc": 7674,
+            "frq": 7987,
+            "exchange": "",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "odd",
+            "usphone": "",
+            "ukphone": "ɒd",
+            "definition": "a. not divisible by two\ns. not easily explained\ns. an indefinite quantity more than that specified\ns. of the remaining member of a pair, of socks e.g.",
+            "translation": "a. 奇数的, 古怪的, 剩余的, 零散的, 各种各样的, 少量的\nn. 奇特的事物, 怪人\n[计] 奇数, 奇校验, 光数据数字转换器",
+            "pos": "",
+            "collins": 4,
+            "oxford": true,
+            "tag": "cet4 cet6 ky toefl ielts",
+            "bnc": 2002,
+            "frq": 2738,
+            "exchange": "",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "non-negative",
+            "usphone": "",
+            "ukphone": "'nɒnneɡət'ɪv",
+            "definition": "",
+            "translation": "[计][修]非负",
+            "pos": "",
+            "collins": 0,
+            "oxford": false,
+            "tag": "",
+            "bnc": 0,
+            "frq": 0,
+            "exchange": "",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "boundary",
+            "usphone": "",
+            "ukphone": "'baundri",
+            "definition": "n. the line or plane indicating the limit or extent of something\nn. a line determining the limits of an area",
+            "translation": "n. 边界, 分界线\n[计] 边界",
+            "pos": "",
+            "collins": 2,
+            "oxford": false,
+            "tag": "gk cet4 cet6 ky toefl ielts",
+            "bnc": 2050,
+            "frq": 2776,
+            "exchange": "s:boundaries",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "mysterious",
+            "usphone": "",
+            "ukphone": "mis'tiәriәs",
+            "definition": "s. having an import not apparent to the senses nor obvious to the intelligence; beyond ordinary understanding",
+            "translation": "a. 神秘的, 难解的, 不可思议的",
+            "pos": "",
+            "collins": 2,
+            "oxford": true,
+            "tag": "cet4 cet6 ky toefl",
+            "bnc": 4760,
+            "frq": 4093,
+            "exchange": "",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "mechanism",
+            "usphone": "",
+            "ukphone": "'mekәnizm",
+            "definition": "n. the atomic process that occurs during a chemical reaction\nn. the technical aspects of doing something\nn. a natural object resembling a machine in structure or function\nn. (philosophy) the philosophical theory that all phenomena can be explained in terms of physical or biological causes",
+            "translation": "n. 机械, 机构, 结构, 机理, 技巧\n[化] 机理; 历程; 机构",
+            "pos": "",
+            "collins": 3,
+            "oxford": false,
+            "tag": "cet6 ky toefl ielts gre",
+            "bnc": 1869,
+            "frq": 2677,
+            "exchange": "s:mechanisms",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "complicated",
+            "usphone": "",
+            "ukphone": "'kɒmplikeitid",
+            "definition": "s. difficult to analyze or understand",
+            "translation": "a. 复杂的\n[医] 并发的",
+            "pos": "",
+            "collins": 3,
+            "oxford": true,
+            "tag": "cet4 cet6 ky toefl ielts",
+            "bnc": 2736,
+            "frq": 2750,
+            "exchange": "d:complicated/0:complicated/1:dp/p:complicated",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "visualize",
+            "usphone": "",
+            "ukphone": "'viʒuәlaiz",
+            "definition": "v. imagine; conceive of; see in one's mind\nv. view the outline of by means of an X-ray\nv. form a mental picture of something that is invisible or abstract\nv. make visible",
+            "translation": "vt. 使看得见, 使具体化, 想象, 设想\nvi. 想象, 显形",
+            "pos": "",
+            "collins": 2,
+            "oxford": false,
+            "tag": "cet6 ielts",
+            "bnc": 12013,
+            "frq": 8673,
+            "exchange": "d:visualized/p:visualized/i:visualizing/3:visualizes",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "cascade",
+            "usphone": "",
+            "ukphone": "kæ'skeid",
+            "definition": "n. a small waterfall or series of small waterfalls\nn. a succession of stages or operations or processes or units\nv. rush down in big quantities, like a cascade\nv. arrange (open windows) on a computer desktop so that they overlap each other, with the title bars visible",
+            "translation": "n. 小瀑布, 瀑布状物\nvi. 成瀑布落下\n[计] 层叠, 级联",
+            "pos": "",
+            "collins": 1,
+            "oxford": false,
+            "tag": "toefl gre",
+            "bnc": 11333,
+            "frq": 11599,
+            "exchange": "i:cascading/s:cascades/p:cascaded/d:cascaded/3:cascades",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "prefix",
+            "usphone": "",
+            "ukphone": "'pri:fiks",
+            "definition": "n. an affix that is added in front of the word\nv. attach a prefix to",
+            "translation": "前缀, 称谓\n[计] 地区号码, 前缀",
+            "pos": "",
+            "collins": 0,
+            "oxford": false,
+            "tag": "",
+            "bnc": 16214,
+            "frq": 23652,
+            "exchange": "s:prefixes/d:prefixed/p:prefixed/i:prefixing/3:prefixes",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "rigid",
+            "usphone": "",
+            "ukphone": "'ridʒid",
+            "definition": "s. incapable of or resistant to bending\ns. incapable of compromise or flexibility\na. designating an airship or dirigible having a form maintained by a stiff unyielding frame or structure",
+            "translation": "a. 坚硬的, 刚性的, 严格的, 精密的, 刻板的",
+            "pos": "",
+            "collins": 2,
+            "oxford": false,
+            "tag": "gk cet4 cet6 ky toefl ielts gre",
+            "bnc": 4475,
+            "frq": 5469,
+            "exchange": "",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "requirement",
+            "usphone": "",
+            "ukphone": "ri'kwaiәmәnt",
+            "definition": "n. required activity",
+            "translation": "n. 需求, 必要条件, 要求\n[化] 要求; 合同要求",
+            "pos": "",
+            "collins": 3,
+            "oxford": true,
+            "tag": "gk cet4 cet6 ky toefl ielts",
+            "bnc": 1078,
+            "frq": 1885,
+            "exchange": "s:requirements",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "compactly",
+            "usphone": "",
+            "ukphone": "kәm'pæktli",
+            "definition": "r. in a compact manner or state\nr. taking up no more space than necessary",
+            "translation": "adv. 紧密地, 简洁地",
+            "pos": "",
+            "collins": 0,
+            "oxford": false,
+            "tag": "",
+            "bnc": 46895,
+            "frq": 36439,
+            "exchange": "",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "clause",
+            "usphone": "",
+            "ukphone": "klɒ:z",
+            "definition": "n. (grammar) an expression including a subject and predicate but not constituting a complete sentence",
+            "translation": "n. 子句, 条款\n[计] 子句",
+            "pos": "",
+            "collins": 2,
+            "oxford": false,
+            "tag": "ky toefl ielts gre",
+            "bnc": 1871,
+            "frq": 6415,
+            "exchange": "s:clauses",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "precede",
+            "usphone": "",
+            "ukphone": ".pri:'si:d",
+            "definition": "v. come before\nv. be the predecessor of\nv. move ahead (of others) in time or space\nv. furnish with a preface or introduction",
+            "translation": "vt. 在...之前, 优于, 较...优先\nvi. 在前面",
+            "pos": "",
+            "collins": 2,
+            "oxford": false,
+            "tag": "cet6 ky toefl gre",
+            "bnc": 4328,
+            "frq": 5604,
+            "exchange": "d:preceded/p:preceded/i:preceding/3:precedes",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "initial",
+            "usphone": "",
+            "ukphone": "i'niʃәl",
+            "definition": "n. the first letter of a word (especially a person's name)\nv. mark with one's initials\ns. occurring at the beginning",
+            "translation": "n. 字首, 首字母\na. 开始的, 最初的, 字首的\nvt. 用姓名的首字母签名",
+            "pos": "",
+            "collins": 3,
+            "oxford": true,
+            "tag": "gk cet4 cet6 ky toefl ielts gre",
+            "bnc": 1525,
+            "frq": 1943,
+            "exchange": "s:initials/p:initialled/d:initialled/i:initialling/3:initials",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "pebble",
+            "usphone": "",
+            "ukphone": "'pebl",
+            "definition": "n. a small smooth rounded rock",
+            "translation": "n. 小圆石, 小鹅卵石, 水晶透镜, 碎石花纹\n[医] 小石",
+            "pos": "",
+            "collins": 1,
+            "oxford": false,
+            "tag": "cet4 cet6 ky toefl",
+            "bnc": 7993,
+            "frq": 11162,
+            "exchange": "s:pebbles",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "bob",
+            "usphone": "",
+            "ukphone": "bɒb",
+            "definition": "n. a hair style for women and children; a short haircut all around\nn. a hanging weight, especially a metal ball on a string\nn. a small float usually made of cork; attached to a fishing line\nn. a short abrupt inclination (as of the head)",
+            "translation": "vt. 剪短, 敲击\nvi. 振动, 上下跳动\nn. 短发, 悬挂的饰品, 浮子, 摆动, 轻敲, 5便士",
+            "pos": "",
+            "collins": 2,
+            "oxford": false,
+            "tag": "",
+            "bnc": 2215,
+            "frq": 8817,
+            "exchange": "i:bobbing/p:bobbed/s:bobs/3:bobs/d:bobbed",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "decomposition",
+            "usphone": "",
+            "ukphone": ".di:kɒmpә'ziʃәn",
+            "definition": "n. the analysis of a vector field\nn. in a decomposed state\nn. (chemistry) separation of a substance into two or more substances that may differ from each other and from the original substance",
+            "translation": "n. 分解, 腐败, 变质\n[化] 分解; 裂解",
+            "pos": "",
+            "collins": 0,
+            "oxford": false,
+            "tag": "toefl gre",
+            "bnc": 16207,
+            "frq": 15445,
+            "exchange": "s:decompositions",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "encapsulate",
+            "usphone": "",
+            "ukphone": "in'kæpsәleit",
+            "definition": "v. enclose in a capsule or other small container\nv. put in a short or concise form; reduce in volume",
+            "translation": "vt. 装入胶囊, 封进内部, 压缩\nvi. 做成胶囊",
+            "pos": "",
+            "collins": 1,
+            "oxford": false,
+            "tag": "gre",
+            "bnc": 11424,
+            "frq": 15818,
+            "exchange": "d:encapsulated/3:encapsulates/p:encapsulated/i:encapsulating",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "incorporate",
+            "usphone": "",
+            "ukphone": "in'kɒ:pәreit",
+            "definition": "v. include or contain; have as a component\nv. form a corporation\nv. unite or merge with something already in existence\ns. formed or united into a whole",
+            "translation": "a. 合并的, 组成公司的, 一体化的\nvt. 吸收, 合并, 使组成公司, 体现\nvi. 合并, 混合, 组成公司",
+            "pos": "",
+            "collins": 2,
+            "oxford": false,
+            "tag": "cet6 ky toefl ielts gre",
+            "bnc": 2095,
+            "frq": 2600,
+            "exchange": "d:incorporated/i:incorporating/3:incorporates/p:incorporated",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "sequence",
+            "usphone": "",
+            "ukphone": "'si:kwәns",
+            "definition": "n. serial arrangement in which things follow in logical order or a recurrent pattern\nn. a following of one thing after another in time\nn. film consisting of a succession of related shots that develop a given subject in a movie\nn. several repetitions of a melodic phrase in different keys",
+            "translation": "n. 序列, 续发事件, 顺序, 连续\nvt. 按顺序排好\n[计] 顺序",
+            "pos": "",
+            "collins": 2,
+            "oxford": false,
+            "tag": "cet4 cet6 ky toefl ielts",
+            "bnc": 1691,
+            "frq": 3143,
+            "exchange": "s:sequences/d:sequenced/i:sequencing/p:sequenced/3:sequences/f:sequences",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "fib",
+            "usphone": "",
+            "ukphone": "fib",
+            "definition": "n. a trivial lie\nv. tell a relatively insignificant lie",
+            "translation": "n. 小谎话\nvi. 撒小谎\nvt. 一击, 打",
+            "pos": "",
+            "collins": 0,
+            "oxford": false,
+            "tag": "",
+            "bnc": 34766,
+            "frq": 29376,
+            "exchange": "s:fibs/i:fibbing/p:fibbed/3:fibs/d:fibbed",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "tremendously",
+            "usphone": "",
+            "ukphone": "trə'mendəslɪ",
+            "definition": "r extremely",
+            "translation": "adv. 极大地; 极端地; 极其; 非常",
+            "pos": "",
+            "collins": 0,
+            "oxford": false,
+            "tag": "cet6",
+            "bnc": 11211,
+            "frq": 8855,
+            "exchange": "",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "branch",
+            "usphone": "",
+            "ukphone": "bræntʃ",
+            "definition": "n. a division of some larger or more complex organization\nn. a division of a stem, or secondary stem arising from the main stem of a plant\nn. a part of a forked or branching shape\nn. a stream or river connected to a larger one",
+            "translation": "n. 树枝, 支店, 支流, 分部\nvi. 分支, 出枝\nvt. 分割, 用枝状叶脉刺绣花纹装饰\n[计] 分支, 目录分支",
+            "pos": "",
+            "collins": 3,
+            "oxford": true,
+            "tag": "gk cet4 ky ielts",
+            "bnc": 1178,
+            "frq": 1807,
+            "exchange": "s:branches/i:branching/p:branched/3:branches/d:branched",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "numerous",
+            "usphone": "",
+            "ukphone": "'nju:mәrәs",
+            "definition": "s. amounting to a large indefinite number",
+            "translation": "a. 很多的, 数目众多的, 多数的\n[机] 多数的, 甚多的",
+            "pos": "",
+            "collins": 3,
+            "oxford": false,
+            "tag": "cet4 cet6 ky toefl ielts gre",
+            "bnc": 2597,
+            "frq": 2275,
+            "exchange": "",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "extend",
+            "usphone": "",
+            "ukphone": "ik'stend",
+            "definition": "v. make available; provide\nv. reach outward in space\nv. expand the influence of\nv. open or straighten out; unbend",
+            "translation": "v. 扩充, 延伸, 伸展, 扩大\n[计] 扩展",
+            "pos": "",
+            "collins": 4,
+            "oxford": true,
+            "tag": "cet4 cet6 ky toefl ielts gre",
+            "bnc": 1023,
+            "frq": 1445,
+            "exchange": "d:extended/i:extending/3:extends/p:extended",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "trunk",
+            "usphone": "",
+            "ukphone": "trʌŋk",
+            "definition": "n. the main stem of a tree; usually covered with bark; the bole is usually the part that is commercially useful for lumber\nn. luggage consisting of a large strong case used when traveling or for storage",
+            "translation": "n. 树干, 干线, 躯干, 主干, 象鼻, 箱子\nvt. 把...放入旅行箱内\na. 树干的, 躯干的, 干线的, 箱形的\n[计] 中继线; 母线",
+            "pos": "",
+            "collins": 2,
+            "oxford": false,
+            "tag": "gk cet4 cet6 ky toefl ielts gre",
+            "bnc": 4993,
+            "frq": 3533,
+            "exchange": "s:trunks/i:trunking",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "efficient",
+            "usphone": "",
+            "ukphone": "i'fiʃәnt",
+            "definition": "a. being effective without wasting time or effort or expense",
+            "translation": "a. 有效率的, 能干的",
+            "pos": "",
+            "collins": 3,
+            "oxford": true,
+            "tag": "cet4 cet6 ky toefl ielts",
+            "bnc": 2196,
+            "frq": 2998,
+            "exchange": "",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "topic",
+            "usphone": "",
+            "ukphone": "'tɒpik",
+            "definition": "n. some situation or event that is thought about",
+            "translation": "n. 主题, 论题, 话题",
+            "pos": "",
+            "collins": 2,
+            "oxford": true,
+            "tag": "gk cet4 cet6 ky toefl ielts",
+            "bnc": 2051,
+            "frq": 1860,
+            "exchange": "s:topics",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "substantially",
+            "usphone": "",
+            "ukphone": "sәb'stænʃәli",
+            "definition": "r. in a strong substantial way",
+            "translation": "adv. 实质上, 本质上, 大体上",
+            "pos": "",
+            "collins": 2,
+            "oxford": true,
+            "tag": "cet6 toefl",
+            "bnc": 4042,
+            "frq": 4815,
+            "exchange": "",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "alternative",
+            "usphone": "",
+            "ukphone": "ɒ:l'tә:nәtiv",
+            "definition": "s. necessitating a choice between mutually exclusive possibilities\ns. pertaining to unconventional choices",
+            "translation": "n. 两者择一, 供替代的选择\na. 两者择一的, 供选择的\n[计] 选择对象",
+            "pos": "",
+            "collins": 4,
+            "oxford": true,
+            "tag": "gk cet4 cet6 ky toefl ielts",
+            "bnc": 1752,
+            "frq": 2073,
+            "exchange": "s:alternatives",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "observation",
+            "usphone": "",
+            "ukphone": ".ɒbzә:'veiʃәn",
+            "definition": "n. the act of making and recording a measurement\nn. the act of observing; taking a patient look\nn. a remark expressing careful consideration\nn. facts learned by observing",
+            "translation": "n. 观察, 注意, 观测, 观察力\n[化] 观察",
+            "pos": "",
+            "collins": 2,
+            "oxford": true,
+            "tag": "cet4 cet6 ky toefl ielts",
+            "bnc": 1842,
+            "frq": 2105,
+            "exchange": "s:observations",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "partition",
+            "usphone": "",
+            "ukphone": "pɑ:'tiʃәn",
+            "definition": "n. a vertical structure that divides or separates (as a wall divides one room from another)\nn. (computer science) the part of a hard disk that is dedicated to a particular operating system or application and accessed as a single unit\nn. (anatomy) a structure that separates areas in an organism\nv. divide into parts, pieces, or sections",
+            "translation": "n. 分割, 隔离物, 隔墙, 财产分割\nvt. 区分, 瓜分, 隔开, 分割\n[计] 分区; 划分",
+            "pos": "",
+            "collins": 1,
+            "oxford": false,
+            "tag": "cet6 ielts gre",
+            "bnc": 8564,
+            "frq": 9717,
+            "exchange": "d:partitioned/s:partitions/i:partitioning/3:partitions/p:partitioned",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "observe",
+            "usphone": "",
+            "ukphone": "әb'zә:v",
+            "definition": "v. watch attentively\nv. behave as expected during of holidays or rites\nv. stick to correctly or closely\nv. conform one's action or practice to",
+            "translation": "vt. 觉察到, 遵守, 注意到, 庆祝\nvi. 注意, 评论",
+            "pos": "",
+            "collins": 3,
+            "oxford": true,
+            "tag": "gk cet4 cet6 ky toefl ielts",
+            "bnc": 1288,
+            "frq": 1294,
+            "exchange": "d:observed/p:observed/i:observing/3:observes",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "recursively",
+            "usphone": "",
+            "ukphone": "",
+            "definition": "",
+            "translation": "[计] 递归地",
+            "pos": "",
+            "collins": 0,
+            "oxford": false,
+            "tag": "",
+            "bnc": 47957,
+            "frq": 0,
+            "exchange": "",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "component",
+            "usphone": "",
+            "ukphone": "kәm'pәunәnt",
+            "definition": "n. an abstract part of something\nn. an artifact that is one of the individual parts of which a composite entity is made up; especially a part that can be separated from or attached to a system",
+            "translation": "n. 元件, 组件, 成分\na. 组成的, 构成的\n[计] 组件",
+            "pos": "",
+            "collins": 3,
+            "oxford": false,
+            "tag": "gk cet4 cet6 ky toefl ielts gre",
+            "bnc": 1631,
+            "frq": 1760,
+            "exchange": "s:components",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "specify",
+            "usphone": "",
+            "ukphone": "'spesifai",
+            "definition": "v. decide upon or fix definitely\nv. determine the essential quality of\nv. be specific about",
+            "translation": "vt. 详列, 指定, 说明\n[计] 指定",
+            "pos": "",
+            "collins": 2,
+            "oxford": false,
+            "tag": "cet4 cet6 ky toefl",
+            "bnc": 2230,
+            "frq": 4860,
+            "exchange": "d:specified/i:specifying/p:specified/3:specifies",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "negative",
+            "usphone": "",
+            "ukphone": "'negәtiv",
+            "definition": "n. a reply of denial\nn. a piece of photographic film showing an image with light and shade or colors reversed\na. characterized by or displaying negation or denial or opposition or resistance; having no positive features\na. expressing or consisting of a negation or refusal or denial",
+            "translation": "n. 否定, 否定语, 负数, 底片\na. 否定的, 消极的, 负的, 阴性的\nn. 负数, 负值\n[计] 负数, 负值",
+            "pos": "",
+            "collins": 3,
+            "oxford": true,
+            "tag": "cet4 cet6 ky toefl ielts",
+            "bnc": 2015,
+            "frq": 1470,
+            "exchange": "s:negatives/d:negatived/p:negatived/i:negativing/3:negatives/f:negatives",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "explore",
+            "usphone": "",
+            "ukphone": "ik'splɒ:",
+            "definition": "v. travel to or penetrate into\nv. examine minutely\nv. examine (organs) for diagnostic purposes",
+            "translation": "v. 探险, 探测, 探究",
+            "pos": "",
+            "collins": 3,
+            "oxford": true,
+            "tag": "gk cet4 cet6 ky toefl ielts",
+            "bnc": 1882,
+            "frq": 1594,
+            "exchange": "i:exploring/d:explored/3:explores/p:explored",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "possibility",
+            "usphone": "",
+            "ukphone": ".pɒsә'biliti",
+            "definition": "n. a future prospect or potential\nn. capability of existing or happening or being true\nn. a possible alternative",
+            "translation": "n. 可能性, 可能的事\n[法] 可能性, 可能发生的事, 不确定权",
+            "pos": "",
+            "collins": 4,
+            "oxford": true,
+            "tag": "gk cet4 cet6 ky",
+            "bnc": 1030,
+            "frq": 1195,
+            "exchange": "s:possibilities",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        },
+        {
+            "value": "correspond",
+            "usphone": "",
+            "ukphone": ".kɒri'spɒnd",
+            "definition": "v. exchange messages",
+            "translation": "vi. 符合, 通信, 相当\n[法] 符合, 一致, 相当",
+            "pos": "",
+            "collins": 2,
+            "oxford": false,
+            "tag": "gk cet4 cet6 ky toefl ielts",
+            "bnc": 3234,
+            "frq": 5415,
+            "exchange": "3:corresponds/i:corresponding/p:corresponded/d:corresponded",
+            "externalCaptions": [
+            ],
+            "captions": [
+            ]
+        }
+    ]
+}
