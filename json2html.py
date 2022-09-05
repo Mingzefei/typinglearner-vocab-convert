@@ -10,8 +10,8 @@
 """
 # here put the import lib
 import json
-import pandas as pd
 import sys
+import pandas as pd
 
 class Vocabulary:
     """
@@ -32,7 +32,7 @@ class Vocabulary:
         self.subtitlesTrackId = content['subtitlesTrackId']
         self.wordList = content['wordList']
 
-    def toHtml(self, outCols=['value','ukphone','translation']):
+    def to_html(self, head='', out_cols=['value','ukphone','translation']):
         """
         return html string
 
@@ -45,13 +45,15 @@ class Vocabulary:
         word['definition'] = word['definition'].map(lambda x: x.replace('\n', '; '))
         word['translation'] = word['translation'].map(lambda x: x.replace('\n', '; '))
         # if cannot find outCols, add new BLANK columns
-        for col in outCols:
-            if col not in [dfCol for dfCol in word]:
+        for col in out_cols:
+            if col not in [df_col for df_col in word]:
                 word[col] = ''
 
-        originHtml = word.to_html(columns=outCols, justify='center', col_space=50)
-        modifyHtml = originHtml.replace('class', 'cellspacing=\"0\" class')
-        return modifyHtml
+        origin_html = word.to_html(columns=out_cols, justify='center', col_space=50)
+        modify_html = origin_html.replace('class', 'cellspacing=\"0\" class')
+        head_str = '<h1>'+head+'</h1>\n'
+        modify_html = head_str + modify_html
+        return modify_html
 
 def print_help():
     print('Desc : json2html for Typing Learner Vocabulary')
@@ -60,23 +62,28 @@ def print_help():
     print('  -i : Vocabulary path, like ./test/test1.json')
     print('  -o : output HTML path, like ./test/test1.html')
     print('  -c : HTML table columns, like value,ukphone,translation')
+    print('  -hd : head of HTML, like my\ word')
 
 def main():
     if '-h' in sys.argv:
         print_help()
         sys.exit(0)
 
-    inputPath = sys.argv[sys.argv.index('-i')+1]
-    outputPath = sys.argv[sys.argv.index('-o')+1]
+    input_path = sys.argv[sys.argv.index('-i')+1]
+    output_path = sys.argv[sys.argv.index('-o')+1]
     if '-c' in sys.argv:
         columns = sys.argv[sys.argv.index('-c')+1]
     else:
         columns = ['value','ukphone','translation']
+    if '-hd' in sys.argv:
+        head = sys.argv[sys.argv.index('-hd')+1]
+    else:
+        head = input_path
     
-    my_vocabulary = Vocabulary(inputPath)
-    outFile = open(outputPath, 'w')
-    outFile.writelines(my_vocabulary.toHtml(outCols=columns))
-    outFile.close()
+    my_vocabulary = Vocabulary(input_path)
+    out_file = open(output_path, 'w')
+    out_file.writelines(my_vocabulary.to_html(head=head,out_cols=columns))
+    out_file.close()
     pass
 
 if __name__ == '__main__':
